@@ -1,11 +1,26 @@
-
-body {
-    color: aliceblue;
-    background: rgb(26, 13, 3);
+#background  {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-size: cover;
+    height: 1196px;
 }
-div     {
-    margin: auto;
+#navbar{
+    display: inline;
+    color: #30cfd0;
+    height: 10px;
+}
+#navbar li {
+    display: inline-block;
+    font-size: 15px;
+    color: floralwhite;
+    padding: 2px;
+}
+#mainbox    {
     width: 50%;
-    padding: 10px
-}
- 
+    height: 70%;
+    position: relative;
+    top: -3vh
+    align-items: center;
+    margin:auto;
+    text-align: center;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
