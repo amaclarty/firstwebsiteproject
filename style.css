@@ -41,3 +41,21 @@
         filter: brightness(100%);
         transform: scale(1.1);
     }
+#bat {
+        position: absolute;
+        height: 50%;
+        width: 50%;
+    }
+      
+#game {
+        background-color: #111;
+        height: 90vh;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        width: 100vh;
+    }
+#bg {
+    background-color: darkslateblue;
+}
